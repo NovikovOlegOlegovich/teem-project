@@ -44,6 +44,7 @@ ul {
     margin-right: 31px;
 }
 .logo {
+margin-left: 80px;
 font-family: 'Homemade Apple';
 font-style: normal;
 font-weight: 400;
@@ -63,6 +64,7 @@ line-height: 1.22;
 background-color: transparent;
 border: 1px solid #F7941E;
 border-radius: 5px;
+margin-right: 4px;
 
 display: flex;
 align-items: center;
