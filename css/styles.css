@@ -1,1 +1,73 @@
+:root {
+    --black-color:#000000;
+    --white-color:#ffffff;
+    --grey-color:#F1F1F2;
+    --button-color:#F7941E;
+    --secondory-button-color:#231F20;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--white-color);
+}
+img {
+    display: block;
+    width: 100px;
+}
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top {
+    padding: 36px 0px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    margin-left: 433px;
+}
+.nav-list li:not(:last-child) {
+    margin-right: 31px;
+}
+.logo {
+font-family: 'Homemade Apple';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 2.17;
+color: #231F20;
+}
+.link {
+font-size: 18px;
+line-height: 1.22;
+color: var(--black-color);
+}
+.button {
+padding:11px 24px ;
+font-size: 18px;
+line-height: 1.22;
+background-color: transparent;
+border: 1px solid #F7941E;
+border-radius: 5px;
 
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: var(--button-color);
+}
