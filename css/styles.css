@@ -25,7 +25,7 @@ ul {
 }
 .container {
     width: 1440px;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -127,7 +127,7 @@ color: var(--button-color);
 }
 
 .work-card {
-    padding: 164px 166px 104px 102px;
+    padding: 164px 200px 104px 102px;
 }
 
 .work-title {
@@ -143,6 +143,7 @@ color: var(--button-color);
     margin-bottom: 35px;
 
     text-align: justify;
+    width: 441px;
 }
 
 .work-button {
