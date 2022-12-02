@@ -123,9 +123,6 @@ color: var(--button-color);
 
 .work {
     display: flex;
-}
-
-.work-background {
     background-color: var(--grey-color);
 }
 
